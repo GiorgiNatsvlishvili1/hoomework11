@@ -1,0 +1,114 @@
+ body {
+    background-color: #2b2b2b;
+ }
+ #end2 {
+    color: #000;   
+    outline: 0;
+}
+#end1 {
+    outline: 0;
+}
+#end {
+    outline: 0;
+}
+#button1 {
+    background-color:#A259FF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: 0;            
+    color: #FFFFFF;       
+    }
+    #button2 {
+        background-color:#A259FF;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 20px;
+        border: 0;            
+        color: #FFFFFF;       
+        }
+        #button3 {
+            background-color:#A259FF;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 20px;
+            border: 0;            
+            color: #FFFFFF;       
+            }
+            #button4 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        
+    @media screen and (max-width: 771px) {
+        #first {
+            display: none;
+        }
+        #button2 {
+            display: none;
+        }
+        #rank1 {
+            position:absolute;
+            padding-top: 5px;
+            z-index: 2;
+        }
+        #place1 {
+            position: absolute;
+            padding-left: 10px;
+            z-index: 1;
+        }
+        #firstrow {
+            display: none;
+        }
+        #section {
+            display: none;
+        }
+        #mashroom2 {
+            position: absolute;
+            padding-top: 150px;
+        }
+        #end1 {
+            display: none;
+        }
+        #two {
+        display: none;
+    }  
+       
+    }
+    @media screen and (min-width: 770px){
+        #end {
+            display: none;
+        }
+        #firstrow1 {
+            display: none;
+        }
+        #button3 {
+            display: none;
+        }
+        #first1 {
+            display: none;
+        }
+        #card {
+            text-align: center;
+            padding-top: 15px;
+        }
+        #rank {
+            position: absolute;
+            padding-top: 5px;
+            padding-left: 25px;
+        }
+        #none {
+            display: none;
+        }
+        #mashroom {
+            display: none;
+        }
+    }
